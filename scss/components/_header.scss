@@ -1,0 +1,33 @@
+.header {
+    background-color: rosybrown;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+   margin-top: 10px;
+}
+
+.menu-principal {
+    display: inline-block;
+
+}
+
+.lista-header {
+    display: inline-block;
+    margin: 20px;
+}
+
+.opcion-menu {
+    color: white;
+    text-decoration: none;
+}
+
+
+header nav ul li {
+    list-style-type: none;
+
+}
+
+nav ol li {
+    list-style-type: none;
+}

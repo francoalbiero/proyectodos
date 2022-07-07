@@ -1,0 +1,31 @@
+.div-productos {
+    display: flex;
+    justify-content: space-around;
+    max-height: fit-content;
+}
+
+.div-productos-link {
+    text-decoration: none;
+    background-color: white;
+    color: rosybrown;
+    /*margin: 70px 500px;*/
+    border: solid rosybrown 3px;
+    font-size: 40px;
+}
+.img-productos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.nombre-productos {
+    border: solid 2px white;
+    color: white;
+    background-color: rosybrown;
+    display: flex;
+    display: inline-block;
+    animation-name: animacionfran;
+    animation-duration: 3s;
+    animation-delay: 1s;
+    
+}

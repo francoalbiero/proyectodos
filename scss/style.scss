@@ -1,0 +1,133 @@
+@import 'base/variables';
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: $bg-principal;
+    
+}
+
+@import 'components/header';
+@import 'components/productos';
+
+
+.subtitulo-main {
+    justify-content: space-around;
+    display: flex;
+    position: relative;
+    top: 10px;
+    bottom: 10px;
+    background-color: $bg-principal;
+    color: $color-letras;
+    font-size: 30px;
+}
+
+.img-dia-padre {
+    display: flex;
+    /*justify-content: center;
+    flex-wrap: wrap;
+    background-color: rosybrown;
+    object-fit: cover;*/
+    object-fit: contain;
+    /*justify-content: space-around;*/
+    margin: 35px;
+    
+}
+
+.img-dia-padre .img-1 img {
+    flex: 1 1 auto;
+    border: 3px solid rosybrown;
+    max-width: 100%;
+  }
+
+
+
+.footer {
+    margin: 35px;
+    animation-name: animacionjere;
+    animation-duration: 6s;
+    animation-delay: 2s;
+}
+
+@keyframes animacionjere {
+    0% {font-size: 10px;}
+    50% {font-size: 15px;}
+    100% {font-size: 20px;}
+}
+
+.footer a {
+    text-decoration: none;
+    color: white;
+    display: flex;
+    background-color: rosybrown;
+    justify-content: space-around;
+    flex-direction: row;
+    
+
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+
+
+@keyframes animacionfran {
+    0% {color: white;}
+    50% {color: gray;}
+    100% {color: black;}
+}
+
+.main-comentarios {
+    border: solid 3px black;
+    color: white;
+}
+
+.lista-contactanos {
+   display: grid;
+    color: white;
+}
+
+.conoceme {
+    color: white;
+}
+
+.link-contacto {
+    display: flex;
+    justify-content: center;
+
+    color: rosybrown;
+}
+
+.color-link {
+    color: rosybrown;
+}
+/* APLICANDO GRID */
+.medios-de-pago {
+    color: white;
+    top: 25px;
+}
+
+.grid-container {
+    display: grid;
+    gap: 20px;
+    grid-template-columns: 2fr 1fr 2fr;
+   
+}
+.grid-item img {
+    width: 100%;
+    height: 100%;
+    
+}
+.grid-contenedor-productos {
+    display: grid;
+    grid-template-areas: "nombre-productos";
+    gap: 40px;
+}
