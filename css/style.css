@@ -4,7 +4,11 @@
 }
 
 body {
+  margin: 0;
   background-color: rosybrown;
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  min-height: 100vh;
 }
 
 .header {
@@ -103,6 +107,7 @@ nav ol li {
   animation-name: animacionjere;
   animation-duration: 6s;
   animation-delay: 2s;
+  
 }
 
 @keyframes animacionjere {

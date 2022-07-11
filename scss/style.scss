@@ -6,6 +6,9 @@
 
 body {
     background-color: $bg-principal;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
     
 }
 
@@ -42,13 +45,16 @@ body {
     max-width: 100%;
   }
 
-
+footer {
+    margin-top: auto;
+}
 
 .footer {
     margin: 35px;
     animation-name: animacionjere;
     animation-duration: 6s;
     animation-delay: 2s;
+    margin-top: auto;
 }
 
 @keyframes animacionjere {
